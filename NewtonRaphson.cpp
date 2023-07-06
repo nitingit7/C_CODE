@@ -8,8 +8,7 @@ double eq(double x){
 }
 
 double eq2(double x){
-    return 3*x*x*-1;
-;
+    return 3*x*x-1;
 }
 
 double interval(){
@@ -18,7 +17,7 @@ double interval(){
     a =1;
     c=1;
     b=1;
-    for(i=2;i<=10;i++){
+    for(i=0;i<=10;i++){
         b=eq(i);
         a=eq(c);
         c = c+1;
@@ -27,6 +26,7 @@ double interval(){
             break;
         }
     }
+    cout<<d<<endl;
     return d;
 }
 
