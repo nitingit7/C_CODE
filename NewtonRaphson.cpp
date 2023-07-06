@@ -12,11 +12,8 @@ double eq2(double x){
 }
 
 double interval(){
-    double a,b, d = 0;
-    int c,i;
-    a =1;
-    c=1;
-    b=1;
+    double a = 1,b = 1, d = 0;
+    int c = 1,i;
     for(i=0;i<=10;i++){
         b=eq(i);
         a=eq(c);
