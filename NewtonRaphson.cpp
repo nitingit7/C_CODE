@@ -39,7 +39,7 @@ double loop(){
         l = Raphson(x1);
         x1 = l;
     }
-    return x1;
+    return l;
 }
 
 int main(){
