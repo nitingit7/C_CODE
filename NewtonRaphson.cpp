@@ -4,11 +4,11 @@
 using namespace std;
 
 double eq(double x){
-    return pow(31079.21, 1 / x) - 0.000071799 * ((pow(26, pow(x, 3)) + 33 * pow(x, 2) + 9 * x) / (6 * pow(x, 3) + 11 * pow(x, 2) + 6 * x + 1));
+    return x*x*x-x-1;
 }
 
 double eq2(double x){
-    return (1 / x) * pow(31079.21, 1 / x - 1) * (-log(31079.21)) * pow(31079.21, 1 / x)- (0.000071799 * ((6 * pow(x, 3) + 11 * pow(x, 2) + 6 * x + 1) * (3 * pow(x, 2) * log(26) * pow(26, pow(x, 3)) + 66 * x + 9)- (pow(26, pow(x, 3)) + 33 * pow(x, 2) + 9 * x) * (18 * pow(x, 2) + 22 * x + 6))))/ pow(6 * pow(x, 3) + 11 * pow(x, 2) + 6 * x + 1, 2);
+    return 3*x*x*-1;
 ;
 }
 
